@@ -1,11 +1,11 @@
 {
-  "name": "font-awesome-minify-plugin",
+  "name": "super-font-awesome-minify-plugin",
   "description": "A Webpack Plugin that reduces the size of FontAwesome to only include icons that are actually used in your application.",
   "version": "1.0.6",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dhardtke/font-awesome-minify-plugin.git"
+    "url": "git://github.com/meniam/font-awesome-minify-plugin.git"
   },
   "keywords": [
     "dotenv",

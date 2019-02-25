@@ -19,7 +19,7 @@ class FontAwesomeMinifyPlugin {
         this.options = Object.assign({}, {
             additionalClasses: [],
             blacklist: ["fw", "2x", "3x", "4x", "5x", "lg", "spin", "pull-left", "pull-right", "rotate", "rotate-90", "rotate-180", "rotate-270",
-                "regular", "solid", "brands"],
+                "regular", "solid", "brands", "light"],
             prefix: "fa",
             srcDir: "./",
             globPattern: "**/*",
@@ -205,7 +205,7 @@ class FontAwesomeMinifyPlugin {
 
                 if (/fontawesome\.css/.test(data.resource)) {
                     handler = this.processMainCss;
-                } else if (/(solid|regular|brands)\.css/.test(data.resource)) {
+                } else if (/(solid|regular|brands|light)\.css/.test(data.resource)) {
                     handler = this.processStyleCss;
                 }
 
